@@ -1,4 +1,8 @@
 package ua.edu.nupp.kpp.server;
 
-public class OrderState {
+public enum OrderState {
+    CREATED,
+    DIAGNOSED,
+    REPAIR,
+    COMPLETED
 }
